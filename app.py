@@ -7,7 +7,7 @@ import whisper
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Paste your Bard Token (check README.md for where to find yours)
-token = "<NAME"
+token = "awhKFJPx-PseuPdm4LYSudstvY64m3MANEuynqJ2FQ5M9XSgfmksGUOCQ3DCnN5mftwbiw."
 # Initialize Google Bard API
 chatbot = Chatbot(token)
 # Initialize speech recognition
